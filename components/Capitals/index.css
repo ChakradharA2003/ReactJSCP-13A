@@ -1,0 +1,51 @@
+/* Write your CSS here */
+.bg-container {
+  background-color: #93c5fd;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.white-card {
+  background-color: #f8fafc;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+  padding: 30px;
+}
+.heading {
+  color: #323f4b;
+  font-family: 'Roboto';
+  font-size: 30px;
+}
+.input-style {
+  border: 1px solid #cbd2d9;
+  outline: none;
+  cursor: pointer;
+  height: 40px;
+  width: 140px;
+  color: #000000;
+  font-weight: bold;
+}
+.input-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+.country-text {
+  align-self: flex-start;
+  color: #1e293b;
+  font-family: 'Roboto';
+  font-weight: 600;
+  font-size: 25px;
+}
+@media (max-width: 767px) {
+  .bg-container {
+    padding: 20px;
+  }
+}
